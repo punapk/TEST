@@ -5,9 +5,12 @@ use Getopt::Long ;
 use POSIX qw( strftime ) ;
 use OSBOO ;
 use OSBOO::Tools ;
-use InitCendrillon ;
 
 
+#Rajout commentaire
+
+
+# echo test LOL
 use vars qw(
          $VERS
          $DATEVERS
