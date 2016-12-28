@@ -43,7 +43,7 @@ EOQ
 #  VARIABLES 
 ################################
 
-my ($rep_even,$value);
+my ($rep_even,$value, $nouvelle_var);
 
 
 ################################
@@ -67,7 +67,7 @@ GetOptions (
 sub usage {
 	print "Usage : $0 --var=VARENV --value=VALEUR --nb=nombre de repetitions(en secondes)\n" ;
 	print "\tPositionnement de la valeur \"VALEUR\" dans la variable d\'environnement autosys \"VARENV\"\n" ;
-	print "\tVerification de la valeur de variable nb fois toutes les secondes\n" ;
+	print "\tVerification de la valeur de variable toutes les 5 seconades fois toutes les secondes\n" ;
 	exit( 0 ) ;
 }
 
